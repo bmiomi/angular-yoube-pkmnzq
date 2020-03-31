@@ -39,6 +39,6 @@ cargarmas(){
 
   cerrar(){    
     this.videoS=null
-    $('#exampleModal').modal();
+    $('#exampleModal').modal('hide');
   }
 }
